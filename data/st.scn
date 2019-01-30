@@ -1,0 +1,83 @@
+
+// punkty
+points_count 3
+-2.9582 -0.7184093 0.3630322
+-2.9582 4.710838 0.3630322
+2.471046 -0.7184093 0.3630322
+
+
+// trójkąty
+triangles_count 1
+2 0 1
+
+
+// części
+parts_count 1
+0 
+
+
+// materiały
+materials_count 1
+
+mat_name mat1
+rgb 0.6 0.6 0.6
+kdCr 1
+kdCg 1
+kdCb 1
+ksCr 0
+ksCg 0
+ksCb 0
+krCr 0
+krCg 0
+krCb 0
+kaCr 0
+kaCg 0
+kaCb 0
+g 100
+n 1
+
+
+// przypisanie materiałów
+0 mat1
+
+
+// światła
+lights_count 1
+
+light_name default
+enabled 1
+light_type point
+rgb 1 1 1
+power 20
+pos 0.8760182 0 2.993423
+dir 1 0 0
+inner_angle 30
+outer_angle 60
+gonio_count 2
+0 1
+180 1
+
+
+// kamery
+cams_count 1
+active 0
+
+cam_name Cam1
+resolution 800 600
+pos 1.142248 -0.1765695 4.604947
+lookAt 1.140872 -0.1324272 1.635009
+fov 60
+rotation 0
+
+
+// hierarchia
+node_count 2
+
+hier_type Light
+hier_name default
+light_index 0
+
+hier_type Mesh
+hier_name Trojkat
+triangle_count 1
+0 
